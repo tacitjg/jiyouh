@@ -1,0 +1,489 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wd1000{
+	width: 1000px;
+	margin: 0px auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix{
+	overflow: hidden;
+}
+.clearfix:after { display: table; content: ""; width: 0; clear: both; }
+/*---------------------------------*/
+.top{
+	background: #f3f3f3;
+	border-bottom: 1px solid #e3e2e2;
+}
+.top ul{
+	text-align: right;
+	line-height: 30px;
+}
+.top ul a{
+	color: #666;
+	margin-left: 20px;
+	font-size: 13px;
+}
+.logo{
+	margin: 30px auto
+}
+.logo .search{
+	display: inline;
+}
+.logo .search form input{
+	width: 270px!important;
+	border-radius: 0px;
+}
+.logo .search form button{
+	border-radius: 0px;
+	border-color: #31A9B3;
+	background-color: #31A9B3;
+	margin-left: 5px;
+}
+/*------------header---------------*/
+.header{
+	background-color: #31A9B3;
+}
+.header ul a{
+	display: block;
+	float: left;
+	font-size: 18px;
+	padding: 0px 20px;
+	color: #fff;
+	line-height: 50px;
+}
+.header ul .active{
+	background-color: #fff;
+	border-top: 4px solid #f77825;
+	color: #000;
+	line-height: 46px;
+}
+.header ul a:hover{
+	background-color: #f0f0f0;
+	border-top: 4px solid #f77825;
+	color: #000;
+	line-height: 46px;
+	text-decoration: none;
+}
+/*-------------container-------------*/
+.container{
+	margin-top: 20px;
+	padding: 0px;
+}
+.box_left{
+	width: 670px;
+}
+.box_right{
+	width: 300px;
+}
+/*-------------轮播-----------------*/
+.banner{
+	width: 450px;
+	height: 310px;
+	position: relative;
+}
+.banner .banner_top{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	background: rgba(0,0,0,0.5);
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.banner .banner_top:hover{
+	text-decoration: none;
+}
+.banner img{
+	height: 300px!important;
+	min-width: 100%;
+}
+.banner_news{
+	width: 220px;
+	background-color: #eee;
+}
+.banner_news .news1{
+	color: #fff;
+	padding: 20px;
+	height: 150px;
+	background: #83AF9B;
+}
+.banner_news .news1 h3 {
+	margin: 0px;
+}
+.banner_news .news1 h3 a{
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+}
+.banner_news .news1 p{
+	margin: 0px;
+	font-size: 13px;
+}
+.banner_news .news2{
+	background: #F77825;
+}
+/*---------------最新文章------------------*/
+.topnews h2{
+	margin: 30px 0px 0px;
+	font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #333;
+    border-bottom: #F77825 4px solid;
+}
+.topnews h2 span a{
+	font-size:13px;
+	color: #666; 
+	font-weight: normal;
+}
+.blogs{
+	padding: 20px 0px;
+	border-bottom: #83AF9B 1px solid;
+}
+figure{
+	width: 25%;
+}
+figure img{
+	width: 100%;
+	transition: all 0.5s;
+}
+figure img:hover{
+	transform: scale(1.2,1.2)
+}
+.blogs ul{
+	width: 72%;
+}
+.blogs h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 0px 10px;
+}
+.blogs h3 a{
+	color: #474645;
+}
+.blogs ul p{
+	line-height: 22px;
+	color: #756F71;
+	font-size: 13px;
+}
+.blogs ul .author span{
+	padding-left: 20px;
+	margin-right: 10px;
+}
+.blogs ul .author span a{
+	color: #759b08;
+}
+.blogs ul .author .other{
+	background: url(../img/icon1.png) no-repeat left center;
+}
+.blogs ul .author .dtime{
+	background: url(../img/icon2.png) no-repeat left center;
+}
+.blogs ul .author .viewnum{
+	background: url(../img/icon3.png) no-repeat left center;
+}
+.blogs ul .author .comment{
+	background: url(../img/icon4.png) no-repeat left center;
+}
+/*-------------右侧-关注我们-------------*/
+.box_right h3{
+	margin: 0px;
+	line-height: 40px;
+	color: #38485A;
+	font-size: 18px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.aboutus ul{
+	margin: 30px 0px;
+}
+.aboutus ul a{
+	float: left;
+	width: 52px;
+	margin: 0px 15px 0px 5px;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 13px;
+	color: #747F8C;
+}
+.aboutus ul .xinlangblog{
+	background: url(../img/icon_blog.jpg) no-repeat top center;
+}
+.aboutus ul .tencentblog{
+	background: url(../img/icon_tencent.jpg) no-repeat top center;
+}
+.aboutus ul .messagebox{
+	background: url(../img/icon_message.jpg) no-repeat top center;
+}
+.aboutus ul .weixing{
+	background: url(../img/icon_weixing.jpg) no-repeat top center;
+}
+.aboutus ul .xinlangblog:hover{
+	background: url(../img/icon_blog2.jpg) no-repeat top center;
+}
+.aboutus ul .tencentblog:hover{
+	background: url(../img/icon_tencent2.jpg) no-repeat top center;
+}
+.aboutus ul .messagebox:hover{
+	background: url(../img/icon_message2.jpg) no-repeat top center;
+}
+.aboutus ul .weixing:hover{
+	background: url(../img/icon_weixing2.jpg) no-repeat top center;
+}
+/*------------推荐新闻链接部分----------------*/
+.moreselect{
+	margin: 30px 0px;
+}
+.moreselect .nav li a{
+	cursor: pointer;
+}
+.moreselect ul li a{
+	color: #666;
+	border: none!important;
+	background-color: transparent!important;
+}
+.moreselect ul .active{
+	background-color: #f77825;
+}
+.moreselect ul .active a{
+	color: #fff;
+}
+.moreselect .tab-content ul{
+	padding: 10px 0px 0px 10px;
+}
+.moreselect .tab-content ul li{
+	list-style: none;
+	height: 40px;
+	padding-top: 10px;
+	overflow: hidden;
+	border-bottom: 1px solid #EAEAEA;
+}
+.moreselect .tab-content ul li span{
+	display: inline-block;
+	width: 20px;
+	height: 17px;
+	text-align: center;
+	color: #fff;
+	background-color: #666;
+	margin-right: 10px;
+}
+.moreselect .tab-content ul li .one{
+	background-color: #FF0000;
+}
+.moreselect .tab-content ul li .two{
+	background-color: #FF7744 ;
+}
+.moreselect .tab-content ul li .three{
+	background-color: #FFAA22;
+}
+.moreselect .tab-content ul li a{
+	line-height: 30px;
+	overflow: hidden;
+}
+.moreselect .tab-content ul li a:hover{
+	text-decoration: none;
+}
+.moreselect .tab-content ul li:hover{
+	border-bottom: 1px solid #000;
+}
+/*----------------热门标签------------------*/
+.hotlable ul{
+	margin: 20px 0px;
+}
+.hotlable ul button{
+	margin-top: 10px;
+	margin-right: 5px;
+	border-radius: 8px;
+	transition: border-radius 0.5s,text-shadow 0.5s;
+}
+.hotlable ul button:hover{
+	border-radius: 0px;
+	text-shadow: #000 1px 1px 1px;
+}
+/*----------------热门文章------------------*/
+.hot_article ul{
+	padding: 30px 0px;
+}
+.hot_article ul li{
+	height: 55px;
+	list-style: none;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.hot_article ul li:hover{
+	background-color: #f4f3f3;
+}
+.hot_article ul li img{
+	width: 70px;
+}
+.hot_article ul li p{
+	height: 55px;
+	width: 220px;
+}
+.hot_article ul li p a{
+	color: #666;
+	display: block;
+	margin: 5px 0px 10px;
+}
+.hot_article ul li p a:hover{
+	color: #F60;
+}
+.hot_article ul li p span{
+	padding-left: 17px;
+	color: #999;
+	margin-right: 10px;
+	font-size: 13px;
+}
+.hot_article ul li p .other{
+	background: url(../img/icon5.png) no-repeat center left;
+}
+.hot_article ul li p .dtime{
+	background: url(../img/icon6.png) no-repeat center left;
+}
+/*--------------友情链接---------------*/
+.f_link{
+	margin-top: 20px;
+}
+.f_link h3 span a{
+	font-size: 13px;
+	color: #666;
+}
+.f_link h3 span a:hover{
+	color: #F60;
+}
+.f_link ul{
+	padding: 10px;
+	background: #f9f9f9;
+	border: 1px #e9e9e9 solid;
+	margin: 20px 0px;
+}
+.f_link ul a{
+	padding: 5px 8px;
+	color: #666;
+	font-size: 13px;
+	line-height: 30px;
+}
+.f_link p{
+	line-height: 20px;
+	color: #9F9F9F;
+	font-size: 13px;
+}
+/*--------------foot-------------*/
+.foot{
+	background: #f6f6f6;
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.foot .foot_left{
+	padding-top: 50px;
+	width: 380px;
+}
+.foot .foot_left p{
+	font-size: 13px;
+	color: #BBBBBB;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.foot .foot_right{
+	width: 600px;
+	padding-right: 100px;
+	margin-top: 30px;
+	background: url(../img/ft_erwei.png) no-repeat right;
+}
+.foot .foot_right .ft_shares a{
+	display: inline-block;
+	float: right;
+	width: 31px;
+	height: 34px;
+	margin-left: 20px;
+}
+.foot .foot_right .ft_shares .shares_sina{
+	background: url(../img/ft-shares.png) no-repeat 0 -68px;
+}
+.foot .foot_right .ft_shares .shares_b{
+	background: url(../img/ft-shares.png) no-repeat 0 -34px;
+}
+.foot .foot_right .ft_shares .shares_m{
+	background: url(../img/ft-shares.png) no-repeat 0 0px;
+}
+.foot .foot_right p{
+	text-align: right;
+	margin-top: 10px;
+}
+.foot .foot_right p a{
+	margin-left: 20px;
+	color: #8D8D8D;
+}
+.foot .foot_right .serve{
+	line-height: 21px;
+	color: #CECECE;
+	font-size: 13px;
+	text-align: right;
+}
+.foot .foot_right .serve a{
+	color: #CECECE;
+}
+.foot .foot_right a:hover{
+	color: #000;
+}
+/*--------------底部搜索框按钮--------------*/
+.go_top{
+	display: none;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	bottom: 1px;
+	right: 0px;
+	background: url(../img/go_top.png) no-repeat -42px center #666;
+}
+.show_search{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	bottom: -3px;
+	left: 0px;
+	background: url(../img/show_search.png) no-repeat center center;
+	background-color: #31A9B3;
+}
+.under_search{
+	width: 350px;
+	position: fixed;
+	bottom: -150px;
+	left: 0px;
+	transition: all 0.3s;
+}
+.under_search h6{
+	margin: 0px;
+	font-size: 14px;
+	line-height: 30px;
+	border: 1px solid rgb(75, 172, 198);
+	background-color: #f5f5f5;
+	padding-left: 10px;
+}
+.under_search h6 .small{
+	font-size: 20px;
+	padding: 0px 5px;
+	line-height: 30px;
+	color: rgb(75, 172, 198);
+	border-left:  1px solid rgb(75, 172, 198);
+	cursor: pointer;
+}
+.under_search .bottom_search{
+	background-color: #fff;
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+}
+.under_search .bottom_search input{
+	width: 250px;
+}
